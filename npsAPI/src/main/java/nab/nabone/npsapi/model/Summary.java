@@ -1,8 +1,5 @@
 package nab.nabone.npsapi.model;
 
-import org.springframework.data.mongodb.core.mapping.Document;
-
-@Document
 public class Summary {
 
 	public Summary(float npsScore) {

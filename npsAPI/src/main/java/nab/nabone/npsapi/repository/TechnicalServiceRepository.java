@@ -8,4 +8,6 @@ import nab.nabone.npsapi.model.TechnicalService;
 @Repository
 public interface TechnicalServiceRepository extends MongoRepository<TechnicalService, String>{
 
+	
+	public TechnicalService findByName(String name);
 }

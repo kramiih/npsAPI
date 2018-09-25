@@ -12,6 +12,5 @@ import nab.nabone.npsapi.model.Survey;
 public interface SurveyRepository extends MongoRepository<Survey, String>{
 
 	public List<Survey> findByScore(int score);
-	public List<Survey> findAllByDates(Date from, Date to);
 }
  

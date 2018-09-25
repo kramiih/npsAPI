@@ -16,7 +16,7 @@ public class NpsCalculationService {
 	
 	
 	public Month caculateNpsScore(Month month) {
-		//number of promoters - number of detractors / number of respondents X 100
+	/*	//number of promoters - number of detractors / number of respondents X 100
 		int promoters = 0;
 		int detractors = 0;
 		
@@ -37,6 +37,7 @@ public class NpsCalculationService {
 		
 		month.setSummary(new Summary(score));
 		
-		return monthRepository.save(month);
+		return monthRepository.save(month);*/
+		return null;
 	}
 }
